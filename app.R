@@ -8,6 +8,7 @@ library(tidyverse)
 app <- Dash$new(external_stylesheets = dbcThemes$BOOTSTRAP)
 data <- read_csv("data/processed/survey.csv")
 
+
 app$layout(
   dbcContainer(
     list(
