@@ -2,7 +2,6 @@ library(dash)
 library(dashHtmlComponents)
 library(ggplot2)
 library(plotly)
-library(purrr)
 library(tidyverse)
 
 app <- Dash$new(external_stylesheets = dbcThemes$BOOTSTRAP)
